@@ -9,7 +9,7 @@ h1{
     color: red;
 }
 
-.ttt-board {
+.gameBoard {
     display: grid;
     grid-template-rows: 200px 200px 200px;
     grid-template-columns: 200px 200px 200px;
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
   }
-.box {
+.game-sq {
     background: rgb(228, 100, 15);
     border: 1px solid rgb(101, 120, 228);
     display: flex;
@@ -31,4 +31,7 @@ body {
     justify-content: center;
     margin: 30px
 
+}
+.reset-btn {
+    background-color: blueviolet;
 }

@@ -12,23 +12,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
         <script scr= "js/script.js" defer></script>
+        <script
+			  src="https://code.jquery.com/jquery-3.6.0.js"
+			  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			  crossorigin="anonymous"></script>
     </head>
     <body>
+        <main>
         <h1>Let's Play Some Tic Tac Toe!</h1>
         <h3 id="player-turn"></h3>
-        <div class="ttt-board">
-            <div class="box" id="sq-0"></div>
-            <div class="box" id="sq-1"></div>
-            <div class="box" id="sq-2"></div>
-            <div class="box" id="sq-3"></div>
-            <div class="box" id="sq-4"></div>
-            <div class="box" id="sq-5"></div>
-            <div class="box" id="sq-5"></div>
-            <div class="box" id="sq-6"></div>
-            <div class="box"id="sq-7"></div>
+        <div class="gameBoard">
+            <div class="game-sq" id="sq-0"></div>
+            <div class="game-sq" id="sq-1"></div>
+            <div class="game-sq" id="sq-2"></div>
+            <div class="game-sq" id="sq-3"></div>
+            <div class="game-sq" id="sq-4"></div>
+            <div class="game-sq" id="sq-5"></div>
+            <div class="game-sq" id="sq-6"></div>
+            <div class="game-sq" id="sq-7"></div>
+            <div class="game-sq" id="sq-8"></div>
           </div>
           <div class= "reset">
               <button class="reset-btn" >Reset Game</button>
           </div>
+        </main>
     </body>
 </html>
