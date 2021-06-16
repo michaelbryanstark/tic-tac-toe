@@ -107,3 +107,5 @@ if (points === -3){
 
 $gameBoard.on("click", "game-sq", handleClick);
 initGame();
+
+console.log();
